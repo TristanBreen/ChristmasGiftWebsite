@@ -44,7 +44,7 @@ body {
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .page-title {
-        font-size: 2em;
+        font-size: 1.75em;
         margin-bottom: 10px;
     }
 
