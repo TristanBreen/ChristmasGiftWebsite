@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Clue Countdown</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <h1 id="page-title" class="page-title">Christmas Clue Countdown!</h1>
+
+
+    <audio id="background-music" loop preload="auto">
+        <source src="christmasMusic.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="countdown-container">
+        <div id="days" class="countdown-item"></div>
+        <div id="hours" class="countdown-item"></div>
+        <div id="minutes" class="countdown-item"></div>
+        <div id="seconds" class="countdown-item"></div>
+    </div>
+    
+    <div id="countdown-message" class="message-container" style="display: none;">-.-.  ---  ..-.  ..-.  .  .  ..--..</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

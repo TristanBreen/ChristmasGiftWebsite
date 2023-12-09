@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e74c3c;
+    background: url('christmasBackground.jpg') center/cover;
+    font-family: 'Lobster Two', cursive;
+}
+
+.page-title {
+    font-size: 3em;
+    color: #790d1a;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #790d1a;
+}
+
+.countdown-container {
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+    font-size: 5em;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.countdown-item {
+    margin: 0.15em;
+    color: #790d1a;
+}
+
+.message-container {
+    font-family: 'Lobster Two', cursive;
+    font-size: 4em;
+    color: #000000;
+    white-space: pre;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 2.4em;
+        margin-bottom: 10px;
+    }
+
+    .countdown-container {
+        font-size: 3em;
+    }
+
+    .countdown-item {
+        margin: 0.2em;
+    }
+
+    .message-container {
+        font-size: 2.75em;
+    }
+}
