@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateCountdown() {
         const now = new Date();
-        const targetDate = new Date('December 23, 2023 17:00:00');
+        const targetDate = new Date('December 22, 2023 18:00:00');
         const timeDifference = targetDate - now;
 
         if (timeDifference <= 0) 
